@@ -1,24 +1,27 @@
 {
-  "name": "hello-world-javascript-action",
+  "name": "dev-posts-to-jekyll-monthly-action",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ming-yong/hello-world-javascript-action.git"
+    "url": "git+https://github.com/ming-yong/dev-posts-to-jekyll-monthly-action.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ming-yong/hello-world-javascript-action/issues"
+    "url": "https://github.com/ming-yong/dev-posts-to-jekyll-monthly-action/issues"
   },
-  "homepage": "https://github.com/ming-yong/hello-world-javascript-action#readme",
+  "homepage": "https://github.com/ming-yong/dev-posts-to-jekyll-monthly-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
-    "@actions/github": "^4.0.0"
+    "actions-toolkit": "^6.0.1",
+    "axios": "^0.21.1",
+    "btoa": "^1.2.1",
+    "dotenv": "^8.2.0"
   }
 }
